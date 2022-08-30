@@ -2,26 +2,51 @@
     padding:0;
     margin:0;
     box-sizing:border-box;
-    border:1px solid red;
 }
 
+@font-face {
+    font-family: "pacifico";
+    src : url(fonts/Pacifico-Regular.ttf);
+}
+
+@font-face {
+    font-family: "lobster";
+    src: url(fonts/Lobster-Regular.ttf);
+}
+
+@font-face {
+    font-family: "kscript";
+    src: url(fonts/KaushanScript-Regular.ttf);
+}
+
+
 body {
+    background-image: linear-gradient(rgba(128, 128, 128, 0.315), rgba(0, 0, 0, 0.651));
+    font-family: "kscript";
 
 }
 
 .header-container {
     display:flex;
     margin:0 auto;
-    justify-content:space-around;
+    justify-content:center;
     flex-wrap:wrap;
     height:fit-content;
     width:100%;
+    background-color:rgb(5, 114, 114);
+    
 }
 
 .logo {
     display:flex;
-    justify-content: space-evenly;
+    justify-content: center;
     width:100%;
+    font-family: "lobster";
+}
+
+.logo p {
+    font-size:15px;
+    letter-spacing: 4px;;
 }
 
 .header-img{
@@ -37,6 +62,7 @@ body {
 .nav-bar {
     display:block;
     width:100%;
+    background-color:rgb(10, 131, 131);
     
 }
 
@@ -46,6 +72,11 @@ body {
     align-items:center;
     flex-wrap:nowrap;
     text-align:center;
+    justify-content:space-around;
+}
+
+.nav-bar a {
+    color: whitesmoke;
 }
 
 
@@ -57,15 +88,24 @@ body {
     padding:10px;
     width:80%;
     margin:0 auto;
+    background-color: rgba(255, 228, 196, 0.801);
+    border-radius:20px;
     
 }
 
 .materials h3 {
     text-align:center;
+    font-size:30px;
+    font-weight:700;
+    text-decoration: underline overline;
+    letter-spacing: 2px;;
 }
 
 .materials ol {
     list-style-type:disc;
+    text-decoration: underline;
+    font-size:20px;
+    text-transform: capitalize;
 }
 
 .boutique {
@@ -101,11 +141,17 @@ body {
     height:150px;
     width:90%;
     margin:0 auto;
+    margin-top: 20px;
+    
 
 }
 
 .session h4 {
     text-align:center;
+}
+
+.contact {
+    margin-top:30px;
 }
 
 footer {
