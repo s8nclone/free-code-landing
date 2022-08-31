@@ -22,7 +22,7 @@
 
 body {
     background-image: linear-gradient(rgba(128, 128, 128, 0.315), rgba(0, 0, 0, 0.651));
-    font-family: "kscript";
+    font-family: "pacifico";
 
 }
 
@@ -84,12 +84,19 @@ body {
     text-align:center;
 }
 
+.video-content {
+    display:flex;
+    justify-content: center;
+}
+
 .materials {
-    padding:10px;
     width:80%;
     margin:0 auto;
-    background-color: rgba(255, 228, 196, 0.801);
     border-radius:20px;
+    background-color:rgba(128, 128, 128, 0.445);
+    padding:10px;
+    margin-bottom:10px;
+    margin-top:10px;
     
 }
 
@@ -113,11 +120,17 @@ body {
     margin:0 auto;
     justify-content:center;
     flex-wrap:wrap;
-
+    background-color: rgba(255, 228, 196, 0.425);
+    border-radius:30px;
+    padding:5px;
+    margin-top:10px;
+    margin-bottom:10px;
 }
 
 .boutique h3 {
     text-align: center;
+    text-orientation: sideways-right;
+    text-transform: capitalize;
 }
 
 .boutique-img {
@@ -125,36 +138,96 @@ body {
     justify-content:center;
     align-items:center;
     flex-wrap:wrap;
+    padding:10px;
 }
 
 .training {
     width:100%;
     margin:0 auto;
-    height:150px;
-    border:1px solid blue;
+    height:250px;
+    background-color: rgb(112, 112, 206);
     margin-top:10px;
     margin-bottom:10px;
+    font-family: 'kscript';
+    font-size:18px;
+    text-align: center;
+    font-weight:700;
+    border-radius: 5% 0% 100% 5%/5% 100% 100% 5%;
+    padding:5px;
 
 }
 
-.session {
-    height:150px;
-    width:90%;
+.training h3 {
+    text-transform:capitalize;
+
+}
+
+form {
+    width:95%;
     margin:0 auto;
     margin-top: 20px;
+    background-color: rgba(255, 166, 0, 0.473);
+    padding:5px;
+    border-radius:5px;
+    font-family: 'lobster';
+    font-size:18px;
+    text-align:center;
     
+}
+
+.form-action {
+    margin:10px;
+    line-height: 20px;
+    font-size: 15px;
 
 }
+
 
 .session h4 {
     text-align:center;
+    text-decoration:1px underline overline;
+    font-size:20px;
+}
+
+#name,
+#email {
+    width:80%;
+    height:30px;
+}
+
+#submit {
+    background-color: rgb(255, 205, 111);
+    height:30px;
+    width:50%;
+    margin-top:5px;
+    color:black;
+    font-size:15px;
+}
+
+hr {
+    border:1px solid rgb(112, 112, 206);
 }
 
 .contact {
-    margin-top:30px;
+    margin-top: 5px;
+    background-color: rgb(10, 131, 131);
+    height:200px;
+    list-style-type: none;
 }
 
+.contact h4 {
+    text-align: center;
+}
+
+
 footer {
-    margin-top:20px;
     text-align:center;
+    background-color: rgb(5, 114, 114);
+}
+
+.contact a,
+footer a {
+    color:black;
+    font-size:15px;
+    font-weight:700;
 }
