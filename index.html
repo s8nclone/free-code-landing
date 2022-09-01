@@ -30,10 +30,10 @@
 
                 <nav id="nav-bar" class="nav-bar">
                     <ul>
-                        <li><a class="nav-link" href="#materials"> Materials Market</a></li>
+                        <li><a class="nav-link" href="#materials"> Materials</a></li>
                         <li><a class="nav-link" href="#shop">Boutique</a></li>
-                        <li><a class="nav-link" href="#training"> Trainee Program</a></li>
-                        <li><a class="nav-link" href="#session"> Book a Session</a></li>
+                        <li><a class="nav-link" href="#training"> Training</a></li>
+                        <li><a class="nav-link" href="#contact"> Contact</a></li>
                     </ul>
                 </nav>
             </div>
@@ -46,7 +46,7 @@
                     <h2>Hand designed bespoke attires</h2>
                     <div class="video-content">
                         <video controls>
-                            <iframe src="fcclandingtest.mp4" type="video/mp4" ></iframe>
+                            <iframe src="images/fcclandingtest.mp4" type="video/mp4" ></iframe>
                             your device cannot view this media
                         </video>
                         
@@ -55,7 +55,7 @@
 
                 <div id="materials" class="materials">
                     <section  class="material-mkt">
-                        <h3>Materials Market</h3>
+                        <h3>Material Market</h3>
                             <ol>
                                 <li>Jeans</li>
                                 <li>Cashmere</li>
@@ -73,30 +73,43 @@
 
             <div class="boutique">
                 <section id="shop" ></section>
-                    <h3><strong>Shop some of our elite designs and fits</strong></h3>
+                    <div>
+                        <h3><strong>Shop some of our elite designs and fits</strong></h3>
+                    </div>
+                    
                     
                     <div class="boutique-img">
-                        <img src="images\fashtoon6.png" 
-                        alt="first wardrobe"
-                        width="70px"
-                        height="70px"> 
-                        <p>Men's Closet</p>
-                    </div>
+                        <div class="img">
+                            <a>
+                                <img src="images\fashtoon6.png" 
+                                alt="first wardrobe"
+                                width="70px"
+                                height="70px"> 
+                            </a>
+                            <p>Men's Closet</p>
+                        </div>
+                        
+                        <div class="img">
+                            <a>
+                                <img src="images\fashtoon5.png" 
+                                alt="second wardrobe"
+                                width="70px"
+                                height="70px">
+                            </a>
+                            <p>Ladies Closet</p>
+                        </div>
+                        
+                        <div class="img">
+                            <a>
+                                <img src="images\fashtoon7.png" 
+                                alt="third wardrobe" 
+                                width="70px"
+                                height="70px">
+                            </a>
+                            <p>Natives/Kaftan</p>
+                        </div>
+                        
 
-                    <div class="boutique-img">
-                        <img src="images\fashtoon5.png" 
-                        alt="second wardrobe"
-                        width="70px"
-                        height="70px">
-                        <p>Ladies Closet</p>
-                    </div>
-
-                    <div class="boutique-img">
-                        <img src="images\fashtoon7.png" 
-                        alt="third wardrobe" 
-                        width="70px"
-                        height="70px">
-                        <p>Natives / Kaftans</p>
                     </div>
                 </section>
             </div>
@@ -126,15 +139,10 @@
                             about new designs & products and exciting discounts!</p>
                         
                             <div class="form-action">
-                                <label class="required">State your name:</label>
-                                <br>
-                                <input name="name" id="name" type="name" 
-                                placeholder="Jesus Satan" required>
-                                <br>
                                 <label class="required">Enter your email address:</label>
-                                <br>
+                                
                                 <input name="email" id="email" type="email"
-                                placeholder="example@s8n.com" required>
+                                placeholder="example@s8n.com" autocomplete="yes" required>
                                 <br>
                                 <input id="submit" type="button" value="Submit">
                             </div>
@@ -142,17 +150,47 @@
                 </section>
             </div>
 
-            <div class="contact">
+            <div class="contact" id="contact">
                 <div>
                     <h4>contact us :</h4>
                 </div>
                 
-                <div>
-                    <li><a href="#?"><i class="fa-solid fa-location-dot"></i>Location</a></li>
-                    <li><a href="#?"><i class="fa-regular fa-envelope"></i>email</a></li>
-                    <li><a href="#?"><i class="fa-brands fa-facebook"></i>Facebook</a></li>
-                    <li><a href="#?"><i class="fa-brands fa-twitter"></i>Twitter</a></li>
-                    <li><a href="#?"><i class="fa-brands fa-instagram"></i>Instagram</a></li>
+                <div class="icons">
+                    <div>
+                        <a href="#?">
+                            <i class="fa-solid fa-location-dot"></i>
+                            Location
+                        </a>
+                    </div>
+        
+                    <div>
+                        <a href="#?">
+                            <i class="fa-regular fa-envelope"></i>
+                            email
+                        </a>
+                    </div>
+                    
+                    <div>
+                        <a href="#?">
+                            <i class="fa-brands fa-facebook"></i>
+                            Facebook
+                        </a>
+                    </div>
+                    
+                    <div>
+                        <a href="#?">
+                            <i class="fa-brands fa-twitter"></i>
+                            Twitter
+                        </a>
+                    </div>
+                    
+                    <div>
+                        <a href="#?">
+                            <i class="fa-brands fa-instagram"></i>
+                            Instagram
+                        </a>
+                    </div>
+                    
                 </div>
                 
             </div>
